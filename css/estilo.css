@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:white;
+}
+
+header, main.footer{
+    background-color: white;
+    max-width: 90%;
+    margin: 20px auto;
+}
+
+header nav{
+    background-color: #476AEE;
+    overflow: hidden;
+}
+
+header nav ul{
+    list-style: none;
+}
+header nav ul li:hover{
+    color:white
+}
+.main.articles{
+    width: 70%;
+    float: left;
+}
+.main.articles article{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+aside{
+    width: 30%;
+    background-color: red;
+    color: #fff;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+}
